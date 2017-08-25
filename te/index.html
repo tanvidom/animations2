@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="src/w3.css">
     <style>
 #example1 
 {
     height: 1000px;
     width: 1000px;
-    background-image: url(assets/bg5.png);
+    background-image: url(assets/bg8.png);
     background-repeat: no-repeat;
    
 }
 video
 {
    position: absolute;
-    top: 150px;
+    top: 92px;
     right: 510px;
 }
 #a1
 {
-    position: relative;
-    top: -70px;
-    right: -60px;
+    position: absolute;
+    top: 180px;
+    right: 360px;
+    width: 135px;
 }
 #a2
 {
-  position: relative;
-    top: -70px;
-    right: -100px;  
+  position: absolute;
+    top: 330px;
+    right: 360px; 
+    width: 135px; 
 }
 #a3
 {
-    position: relative;
-    top: -70px;
-    right: -140px;  
+    position: absolute;
+    top: 480px;
+    right: 360px; 
+    width: 135px; 
 }
 .image1
 {
@@ -48,21 +52,22 @@ height:300px;
 
 .text1 {
     position: relative;
-    left: -400px;
+    left: -380px;
     top:10px;
     margin: 10px,10px,10px,10px;
-    color: #8ECCEC;
+    color: #00FFFF;
     text-align: center;
     word-wrap: break-word;
     white-space: -webkit-pre-wrap; 
     overflow-wrap: break-word;/* Newer versions of Chrome/Safari*/
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 115%;
 
 }
 .text2 {
     position: relative;
-    left: 180px;
-    top:-60px;
+    left: 230px;
+    top:-50px;
     margin: 10px,10px,10px,10px;
     color: #8ECCEC;
     text-align: left;
@@ -71,12 +76,13 @@ height:300px;
     overflow-wrap: break-word;/* Newer versions of Chrome/Safari*/
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
 }
 .text3
 {
    position: relative;
-    left: 178px;
-    top:-68px;
+    left: 228px;
+    top:-58px;
     margin: 10px,10px,10px,10px;
     color: #fff;
     text-align: left;
@@ -85,6 +91,7 @@ height:300px;
     overflow-wrap: break-word;/* Newer versions of Chrome/Safari*/
     font-size: 100%; 
     font-family: Arial, Helvetica, sans-serif; 
+    font-size: 125%;
 }
 .text4
 {
@@ -119,7 +126,7 @@ height:300px;
 {
      position: absolute;
     left: 10px;
-    top: 595px;
+    top: 608px;
     color: #fff;
 
     text-align: left;
@@ -129,6 +136,7 @@ height:300px;
     font-size: 90%; 
     font-family: Arial, Helvetica, sans-serif; 
     font-weight: bold;
+    font-size: 110%;
 }
 
 </style>
@@ -139,19 +147,18 @@ height:300px;
 
 
 <div id="example1">
-     <h4 class="text1">Phases of </br>the Moon</h4>
-     <h4 class="text2">The Earth revolves around the Sun, and the Moon revolves around the Earth. </br>Let us learn about their orbits</h4>
-     <h4 class="text3">Click Play to watch the revolution of the Earth around the Sun and click on each button </br>to see their revolution</h4>
-<video width="800" height="450" controls>
-  <source src="assets/animation_moon_1.mp4" type="video/mp4">
+     <h4 class="text1">చంద్రుని మరియు భూమి</br>యొక్క చలనము</h4>
+     <h4 class="text2">భూమి సూర్యుడి చుట్టూ భ్రమణం చేస్తుంది మరియు చంద్రుడు భూమి చుట్టూ భ్రమణం చేస్తాడు. </br>వాటి కక్ష్యల గురించి మనం నేర్చుకుందాము.</h4>
+     <h4 class="text3">చంద్రుని మరియు భూమి యొక్క చలనము చూడటానికి  బటన్ క్లిక్ చేయండి.</h4>
+<video width="800" height="520" controls>
+  <source src="assets/anim3_te.mp4" type="video/mp4">
 </video>
-<a id ="a1" class = "w3-button w3-lime" href = "index.html">Revolution of the <br />Earth around the Sun</a>
+<a id ="a1" class = "w3-button w3-grey" href = "index.html">చంద్రుడు-భూమి<br />కుటుంబం</a>
 
-<a id ="a2" class = "w3-button w3-cyan" href = "part2.html">Revolution of the <br />Moon around the Earth</a>
-<a id= "a3" class = "w3-button w3-cyan" href = "part3.html">Revolution of the Moon and <br />Earth around the Sun</a>
+<a id ="a2"  class = "w3-button w3-cyan" href = "part2.html">భూమి- సౌర<br />కుటుంబం</a>
+<a id= "a3" class = "w3-button w3-cyan" href = "part3.html">చంద్రుడు-భూమి- సౌర<br />కుటుంబం</a>
 
-<p class = "stext4">The images in the animations and activities are not to scale and the orbits and motions of the Earth and Moon are only </br>illustrative, not absolutely accurate. Go to the first tab and click on AstRoamer: Moon Track.</p>
-
+<p class = "stext4">అన్ని యానిమేషన్లు చూసిన తరువాత మొదటి ట్యాబ్‌కు వెళ్లండి మరియు నక్షత్ర శాస్త్రజ్ఞుడు : మూన్ ట్రాకర్ ఆడటం ద్వారా పరీక్షించుకోండి.</p>
 </div>
 
     
